@@ -44,7 +44,7 @@ steps:
     SonarCloud: 'SonarCloud connection 1'
     organization: '$(SonarOrganization)'
     scannedMode: 'MSBuild'
-    projectKey: '$(SonarProjectKey')
+    projectKey: '$(SonarProjectKey)'
     projectName: '$(SonarProjectName)'
     projectVersion: '$(Build.BuildNumber)'
     extraProperties: |
